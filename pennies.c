@@ -24,9 +24,9 @@ if(pennies>0)
 for(int index = 0; index<days-1 ; index++)
 {
  
-amount = amount*p;
-}
- amount--
+ 
+pennies  = pennies * 2;
+amout = amount + pennies;
 }
 
 printf("your total balance is %lf", amount);
