@@ -5,7 +5,7 @@ int main()
 int days, int pennies, int index;
 double amount = 1.0;
 
-printf("enter no of days in month");
+printf("enter no of days in month");  // prompt the user 
 scanf("%d", &days);
 
 if((days<28) || (days>31))
@@ -24,9 +24,9 @@ if(pennies>0)
 for(int index = 0; index<days-1 ; index++)
 {
  
-amount = amount*p;
-}
- amount--
+ 
+pennies  = pennies * 2;     
+amout = amount + pennies;
 }
 
 printf("your total balance is %lf", amount);
